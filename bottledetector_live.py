@@ -16,13 +16,10 @@
 
 from ultralytics import YOLO
 from ultralytics.engine.results import Results
-from norfair import Detection, Tracker, draw_boxes
+from norfair import Detection
 from typing import List
-from time import time
-from datetime import timedelta
 import numpy as np
 import cv2
-from openpyxl.worksheet.datavalidation import DataValidation
 
 
 class BottleDetector:

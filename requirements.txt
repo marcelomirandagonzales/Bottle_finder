@@ -1,0 +1,10 @@
+python == 3.10.18
+numpy == 1.26.4
+opencv-python == 4.11.0.86
+librealsense == 2.56.5
+pyrealsense2 == 2.56.5          
+pybind11 == 3.1.0
+ultralytics == 8.4.211 
+norfair == 2.3.0
+typing-extensions == 4.16.0 
+yolov5 == 7.0.14                   
