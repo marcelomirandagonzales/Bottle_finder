@@ -14,7 +14,7 @@ try:
 
         width, height = depth_frame.get_width(), depth_frame.get_height()
         dist = depth_frame.get_distance(width // 2, height // 2)
-        print(f"The camera is facing an object {dist:.3f} meters away", end="\r")
+        print(f"The camera is facing an object {dist:.5f} meters away", end="\r")
 
 finally:
     pipeline.stop() # Stop streaming
